@@ -6,7 +6,7 @@ pipeline {
         DOCKER_IMAGE = 'cithit/kunkelec'                                                                    //<------change this
         IMAGE_TAG = "build-${BUILD_NUMBER}"
         GITHUB_URL = 'https://github.com/kunkelec-stack/255-lab3-6.git'                                          //<------change this
-        KUBECONFIG = credentials('kunkelec-255-sp26')                                                         //<------change this
+        KUBECONFIG = credentials('kunkelec-225-sp26')                                                         //<------change this
     }
 
     stages {
